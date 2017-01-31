@@ -7,9 +7,9 @@ using System.Windows;
 
 
 
-namespace ConsoleApplication6
+namespace VectorDiagrams
 {
-    class execute
+    class Shapes
     {
         class Circle
         {
