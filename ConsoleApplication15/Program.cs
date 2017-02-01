@@ -13,21 +13,22 @@ namespace VectorDiagrams
     {
         class Circle
         {
-            private int width;
+            public int radius;
             public Circle()
-            { }
-            public Circle(int width)
             {
-                this.width = width;
             }
-
+            public Circle(int radius)
+            {
+                this.radius = radius;
+            }
         }
 
         class Square
         {
             private int width;
             public Square()
-            { }
+            {
+            }
             public Square(int width)
             {
                 this.width = width;
@@ -38,7 +39,8 @@ namespace VectorDiagrams
         {
             private int horizontal, vertical;
             public Ellipse()
-            { }
+            {
+            }
             public Ellipse(int horizontal, int vertical)
             {
                 this.horizontal = horizontal;
@@ -50,26 +52,28 @@ namespace VectorDiagrams
         {
             private int width, height;
             public Rectangle()
-            { }
+            {
+            }
             public Rectangle(int width, int height)
             {
                 this.width = width;
                 this.height = height;
             }
-
         }
+
         class TextBox
         {
             private int width, height;
             public TextBox()
-            { }
+            {
+            }
             public TextBox(int width, int height)
             {
                 this.width = width;
                 this.height = height;
             }
         }
-    
+
 
 
         static void display(int xPosition, int yPosition, int width, int height, string userInput)
@@ -122,9 +126,9 @@ namespace VectorDiagrams
             {
 
                 Console.WriteLine("Enter the Horizontal and vertical lengths");
-                width= (Convert.ToInt32(Console.ReadLine()));
+                width = (Convert.ToInt32(Console.ReadLine()));
                 height = (Convert.ToInt32(Console.ReadLine()));
-                Ellipse ellipse= new Ellipse(height,width);
+                Ellipse ellipse = new Ellipse(height, width);
                 display(xPosition, yPosition, width, height, userinput);
             }
 
@@ -134,12 +138,11 @@ namespace VectorDiagrams
                 Console.WriteLine("Enter the width and height lengths");
                 width = (Convert.ToInt32(Console.ReadLine()));
                 height = (Convert.ToInt32(Console.ReadLine()));
-                TextBox textbox= new TextBox(height, width);
+                TextBox textbox = new TextBox(height, width);
                 display(xPosition, yPosition, width, height, userinput);
             }
 
             Console.ReadKey();
-
         }
     }
 }
