@@ -5,8 +5,6 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
 
-
-
 namespace VectorDiagrams
 {
     class Shapes
@@ -74,15 +72,11 @@ namespace VectorDiagrams
             }
         }
 
-
-
         static void display(int xPosition, int yPosition, int width, int height, string userInput)
         {
             Console.SetCursorPosition(xPosition, yPosition);
             Console.WriteLine("{0} is with {1}x{2} size", userInput, width, height);
         }
-
-
 
         static void Main(string[] args)
         {
