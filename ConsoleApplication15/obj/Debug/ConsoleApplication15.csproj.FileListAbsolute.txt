@@ -7,3 +7,6 @@ C:\Users\Neeharika.Pathuri\Documents\HelloWorld\ConsoleApplication15\ConsoleAppl
 C:\Users\Neeharika.Pathuri\Documents\Vector-Diagrams\ConsoleApplication15\bin\Debug\ConsoleApplication15.exe.config
 C:\Users\Neeharika.Pathuri\Documents\Vector-Diagrams\ConsoleApplication15\obj\Debug\ConsoleApplication15.exe
 C:\Users\Neeharika.Pathuri\Documents\Vector-Diagrams\ConsoleApplication15\obj\Debug\ConsoleApplication15.pdb
+C:\Users\Neeharika.Pathuri\Documents\Vector-Diagrams\ConsoleApplication15\bin\Debug\ConsoleApplication15.exe
+C:\Users\Neeharika.Pathuri\Documents\Vector-Diagrams\ConsoleApplication15\bin\Debug\ConsoleApplication15.pdb
+C:\Users\Neeharika.Pathuri\Documents\Vector-Diagrams\ConsoleApplication15\obj\Debug\ConsoleApplication15.csprojResolveAssemblyReference.cache
